@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Codystar-Regular";
+    src: url("./Codystar-Regular.ttf");
+}
+
+body {
+    font: "Raleway", sans-serif;
+    /* color: rgba(0,0,0,0.5); */
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, #00B6D6, #FF47F9);
+}
+
+h1 {
+    font: 600 3.5em 'Codystar-Regular', sans-serif;
+    color: #b5f5fd;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 0.01em;
+}
